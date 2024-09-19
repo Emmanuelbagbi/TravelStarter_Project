@@ -43,6 +43,7 @@ header{
     background-color: rgba(0, 0, 0, 0.201);
     position: fixed;
     z-index: 5;
+    /* border: 1px solid white; */
 }
 .cs_gescout_sticky{
     background-color: rgba(0, 0, 0, 0.607);
@@ -78,6 +79,8 @@ header .ul1{
 .ul1 .li1{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    text-decoration: none;
+    color: white;
 }
 .search-bar{
     width: 18%;
