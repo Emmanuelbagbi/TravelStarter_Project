@@ -1,13 +1,13 @@
 import { useState, useEffect, useRef } from 'react';
 import './Homepage.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 const Homepage = () => {
 
-      AOS.init({
-        offset: 1,
-    });
+    //   AOS.init({
+    //     offset: 1,
+    // });
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const timeRunning = 3000;
