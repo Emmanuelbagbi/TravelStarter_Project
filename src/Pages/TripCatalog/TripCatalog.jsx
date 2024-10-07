@@ -37,7 +37,39 @@ const TripCatalog = () => {
     "$6000 - $7000",
     "$7000+"
   ];
-  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+  const alphabet = [
+    "Alphabetical order",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
+  ];
+
+  const dateRange = [
+    
+  ]
 
   const filteredPopularity = [
     "Popularity",
@@ -49,7 +81,7 @@ const TripCatalog = () => {
   const filteredDate = ["Dates", 
     ...new Set(Data.map((trip) => trip.date))
   ];
-  const fileteredTripType = [
+  const filteredTripType = [
     "Destination Type",
     ...new Set(Data.map((trip) => trip.destinationType)),
   ];
@@ -122,11 +154,97 @@ const TripCatalog = () => {
         </div>
 
         <div className="sort-cart">
-          <p>Date</p>
-          <p>Price Range</p>
-          <p>Destination type</p>
-          <p>Duration</p>
-          <p>Rating</p>
+          <p>
+        <select
+              id="option"
+              value={date}
+              onChange={(e) => setDate(e.target.value)}
+            >
+              {filteredDate.map((type) => (
+                <option key={type} value={type}>
+                  {type}
+                </option>
+              ))}
+            </select>
+          </p>
+          <p>
+            <select
+              id="option"
+              value={priceRange}
+              onChange={(e) => setPriceRange(e.target.value)}
+            >
+              {priceRanges.map((type) => (
+                <option key={type} value={type}>
+                  {type}
+                </option>
+              ))}
+            </select>
+          </p>
+          <p>
+            <select
+              id="option"
+              value={tripType}
+              onChange={(e) => setTripType(e.target.value)}
+            >
+              {filteredTripType.map((type) => (
+                <option key={type} value={type}>
+                  {type}
+                </option>
+              ))}
+            </select>
+          </p>
+          <p>
+            <select
+              id="option"
+              value={duration}
+              onChange={(e) => setDuration(e.target.value)}
+            >
+              {filteredDuration.map((type) => (
+                <option key={type} value={type}>
+                  {type}
+                </option>
+              ))}
+            </select>
+          </p>
+          <p>
+            <select
+              id="option"
+              value={rating}
+              onChange={(e) => setRating(e.target.value)}
+            >
+              {filteredRating.map((type) => (
+                <option key={type} value={type}>
+                  {type}
+                </option>
+              ))}
+            </select>
+          </p>
+          <p>
+            <select
+              id="option"
+              value={popularity}
+              onChange={(e) => setPopularity(e.target.value)}
+            >
+              {filteredPopularity.map((type) => (
+                <option key={type} value={type}>
+                  {type}
+                </option>
+              ))}
+            </select>
+          </p>
+          <p>
+            <select
+              id="option"
+              value={alphabetical}
+              onChange={(e) => setAlphabetical(e.target.value)}
+            >
+              {alphabet.map((type) => (
+                <option key={type} value={type}>
+                  {type}
+                </option>
+              ))}
+            </select>
+          </p>
         </div>
 
         <div className="tripContent">
