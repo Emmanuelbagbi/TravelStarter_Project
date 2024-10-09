@@ -1,8 +1,7 @@
 
 import "./contact.css";
 import { GrLocation } from "react-icons/gr";
-import { LuPhoneCall } from "react-icons/lu";
-import { LuMailOpen } from "react-icons/lu";
+import { LuMailOpen , LuPhoneCall } from "react-icons/lu";
 import Location from "./Location"; // Geolocation API component
 import swal from "sweetalert"; // SweetAlert for notifications
 
