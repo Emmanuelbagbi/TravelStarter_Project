@@ -6,6 +6,7 @@ import { BsCurrencyDollar } from "react-icons/bs";
 import { FaMapMarkerAlt, FaPlaneDeparture, FaRegHeart, FaCheck, FaCar } from "react-icons/fa";
 import plane from '../../assets/plane.avif'
 import suitcase from '../../assets/newsuitcase.png'
+
 const About = () => {
   return (
     <>
