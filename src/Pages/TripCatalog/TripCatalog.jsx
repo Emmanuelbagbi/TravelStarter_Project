@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./trip.css";
 import Data from "../../../public/data.json";
 import Vlog from "../../assets/header.jpg";
-import Trip from "../../components/TriProps/Trip.jsx";
+import Trip from "../../Components/TriProps/Trip";
 // import Rate1 from "../../assets/ratings/rating-40.png";
 import Rate2 from "../../assets/ratings/rating-50.png";
 
