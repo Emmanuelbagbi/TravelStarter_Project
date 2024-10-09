@@ -3,8 +3,7 @@ import sunlight from '../../assets/sunlight.avif'
 import jeep from '../../assets/jeep.avif'
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { BsCurrencyDollar } from "react-icons/bs";
-import { FaMapLocationDot,FaPlaneDeparture, FaRegHeart } from "react-icons/fa6";
-import { FaCheck,FaCar, } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPlaneDeparture, FaRegHeart, FaCheck, FaCar } from "react-icons/fa";
 import plane from '../../assets/plane.avif'
 import suitcase from '../../assets/newsuitcase.png'
 const About = () => {
@@ -104,7 +103,7 @@ const About = () => {
             </div>
 
             <div className="eachservice">
-               <FaMapLocationDot className='flight'/>
+               <FaMapMarkerAlt className='flight'/>
                <div className="info">
                 <p className='variety'>Exciting Places</p>
                 <p className='unique'>Our unique matching system lets you find just the tour you want for your next holiday</p>
