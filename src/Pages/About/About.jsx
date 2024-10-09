@@ -1,13 +1,10 @@
 import './About.css';
 import sunlight from '../../assets/sunlight.avif'
 import jeep from '../../assets/jeep.avif'
-import { FaPlaneDeparture } from "react-icons/fa6";
-import { FaRegHeart } from "react-icons/fa6";
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { BsCurrencyDollar } from "react-icons/bs";
-import { FaMapLocationDot } from "react-icons/fa6";
-import { FaCar } from "react-icons/fa";
-import { FaCheck } from "react-icons/fa";
+import { FaMapLocationDot,FaPlaneDeparture, FaRegHeart } from "react-icons/fa6";
+import { FaCheck,FaCar, } from "react-icons/fa";
 import plane from '../../assets/plane.avif'
 import suitcase from '../../assets/newsuitcase.png'
 const About = () => {

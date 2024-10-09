@@ -63,7 +63,7 @@ function Hamburger() {
   #checkbox:checked + .toggle {
     transition-duration: .5s;
     transform: rotate(180deg);
-  } */}
+} */}
 
     </>
 
