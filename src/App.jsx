@@ -16,14 +16,14 @@ const App = () => {
       {/* Use BrowserRouter instead of Router */}
       <Router>
         <Nav />
-        <Route>
-          <Routes path="/" element={<Homepage />} />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/countries" element={<Great />} />
           <Route path="/accom" element={<Accomodations/>} />
           <Route path="/tc" element={<TripCatalog />} />
-        </Route>
+        </Routes>
         <Footer/>
       </Router>
     </>

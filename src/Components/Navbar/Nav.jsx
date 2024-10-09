@@ -48,10 +48,10 @@ function Nav() {
 
               <ul className='ul1'>
                   <li className='li1'><Link to="/" className="li1">Home</Link></li>
+                  <li className='li1'><Link to="/countries" className="li1">Country</Link></li>
                   <li className='li1'><Link to="/tc" className="li1">Trip Catalogue</Link></li>
                   <li className='li1'><Link to="/Contact" className="li1">Contact</Link></li>
                   <li className='li1'><Link to="/about" className="li1">About</Link></li>
-                  <li className='li1'><Link to="/countries" className="li1">Country</Link></li>
               </ul>
 
               <div className="search-bar">
