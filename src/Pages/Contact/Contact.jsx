@@ -1,6 +1,6 @@
 
 import "./contact.css";
-import { GrLocation } from "react-icons/gr";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import { LuMailOpen , LuPhoneCall } from "react-icons/lu";
 import Location from "./Location"; // Geolocation API component
 import swal from "sweetalert"; // SweetAlert for notifications
@@ -27,7 +27,7 @@ const Contact = () => {
       {/* Contact Details */}
       <div className="three">
         <div className="box">
-          <GrLocation className="icon" />
+          <FaMapMarkerAlt className="icon" />
           <h3>Address</h3>
           <p>No. 6 Royaline Avenue</p>
           <p>Rivers State, Nigeria</p>
